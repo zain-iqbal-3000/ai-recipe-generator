@@ -1,0 +1,15 @@
+{
+  "name": "ai-cooking-suggest",
+  "version": "1.0.0",
+  "description": "AI-powered recipe generator web app",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": ["ai", "recipe", "generator", "mern", "mongodb", "react"],
+  "author": "CookAI Team",
+  "license": "MIT"
+}

@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This project is a full MERN stack (MongoDB, Express, React, Node.js) AI-powered recipe generator web app. Use only vanilla JavaScript (no TypeScript). The design must be vibrant, modern, and eye-catching. Integrate with MongoDB and Supabase (when available) for data and authentication. The backend provides RESTful APIs for recipe generation and user management. The frontend is a single-page React app with a state-of-the-art UI.
